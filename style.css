@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bowlby+One+SC&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Deca:wght@100..900&family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
   margin: 0;
   padding: 0;
-  .poppins-regular {
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
   }
-  
-}
 
 .topo{
   display: flex;
@@ -16,19 +11,23 @@
   align-items: center;
   text-align:center;
   flex-direction: column;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
 
 .sign{
   position: absolute;
   display: flex;
-  right: 8%;
+  right: 1%;
   top: 3%;
 }
 
-.sign p{
+.signIn{
   color: white;
   margin-right: 2vh;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .sign button{
@@ -42,6 +41,7 @@
   font-weight: bold;
   margin-top: -10px;
 }
+
 .imagem img{
   width: 100vw;
   height: 60vh;
@@ -49,22 +49,18 @@
 
 .logo{
   position: absolute;
-  margin-top: 0vh;
-
- 
+  margin-bottom:11vh;
 }
 
 .logo h1{
   color: white;
   font-size: 250%;
-  margin-bottom: 3vh;
-  
+  margin-bottom: 2vh;
 }
 
 .inputSearch{
   height: 4.8vh;
   width:30vh;
-  
 }
 
 .buttonSearch{
@@ -84,35 +80,38 @@
   display: flex; 
   align-items: center;  
   justify-content: center; 
-  margin-top: 23vh;
+  margin-top: 13vh;
 }
 
 .location{
   position: absolute;
-  margin-right: 20vw;
+  margin-right: 15vw;
 }
 
 .inputSearch{
   height: 5vh;
   border-radius: 20px;
   border: none;
-  width: 20vw;
+  width: 15vw;
   padding-left: 35px;
 }
 
 .buttonSearch{
   margin-left: -35px;
 }
+
 .savedAddress{
   position: absolute;
   display: flex;
-  margin-top: 35vh;
+  margin-top: 25vh;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .savedAddress a{
 
   color: white;
-  font-weight: bold;
   font-size: small;
 }
 
@@ -122,6 +121,9 @@
   align-items: center; 
   text-align:center;
   gap: 25vh;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .dasher{
@@ -131,7 +133,6 @@
   align-items: center;
   text-align: center;
   margin-top: 8vh;
-  font-weight: bold;
 }
 
 
@@ -140,56 +141,213 @@
   font-weight: bold;
 }
 .text{
-  font-size: small;
-  font-weight: bolder;
+  font-size:12px;
 }
 
 .dasher img{
   width: 9vw;
   height: 15vh;
 }
+
 .lastText{
   color: #eb1700;
   font-weight: bold;
   font-size: small;
   margin-top: 1vh;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .app{
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   align-items: center;
+  justify-content: center;
   text-align: center;
-  margin-top: 8vh;
+  gap: 3vw; 
+  margin-top: -25vh;
   font-weight: bold;
+  margin-right: 24vw;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .appTitle{
-  width: 21vw;
-  margin-left: 20vw;
-  margin-right: 6vw;
+  width: 18vw;
   display: flex;
   flex-direction: column;
   align-items:flex-start;
   text-align:left;
-
-}
-
-.appTitle h1{
-
+  margin-top: 45vh;
 }
 
 .appTitle p{
   font-size: small;
+  margin-top: 2vh;
 }
 
 .appTitle button{
   color: white;
   background-color: #eb1700;
-  width: 5vw;
+  width: 5.5vw;
   height: 4vh;
   border-radius: 20px;
   font-size: 10px;
   font-weight: bold;
   border: none;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+
+.app img{
+  width: 30vw;
+  height: 41vh;
+  position: absolute;
+  margin-top: 2vh;
+}
+
+.findRestaurants{
+  background-color: #fff0ed;
+  height: 57vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 3vw;
+  margin-top: 7vh;
+  font-weight: bold;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.textRestaurants{
+
+  width: 18vw;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  text-align:left;
+}
+
+.textRestaurants p{
+  font-size: small;
+  margin-top: 2vh;
+}
+
+.textRestaurants button{
+  color: white;
+  background-color: #eb1700;
+  width: 6.5vw;
+  height: 4vh;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  border: none;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+
+.imageRestaurants img{
+  width: 30vw;
+  height: 41vh;
+}
+
+.bottom{
+background-color: black;
+height: 75vh;
+font-family: "Alegreya Sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.topText{
+  color: white;
+}
+
+.bottom h5{
+  color: white;
+  font-size: 12px;
+  margin-top: 2vh;
+  margin-bottom: 1.5vh;
+}
+
+  .bottom p{
+    color: rgb(180, 176, 176);
+    font-size: 12px;
+    height: 2.7vh;
+    cursor: pointer;
+  }
+
+.linhaUm{
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  text-align: left;
+  gap: 3vw;
+}
+
+.colunaDois{
+  margin-top: 5vh;
+}
+
+.colunaTres{
+  margin-top: 5vh;
+}
+
+.topCuisinesDois{
+  margin-top: 5vh;
+}
+
+.linhaDois{
+  display: flex;
+  flex-direction:row;
+  align-items:normal;
+  justify-content:center;
+  text-align: left;
+  gap: 3vw;
+  margin-left:5vw;
+  margin-top: 4vh;
+}
+
+.linhaDois img{
+  width: 8vw;
+  height: 13vh;
+  margin-left: 10vw;
+  cursor: pointer;
+}
+
+.rodape{
+  background-color: black;
+  color: rgb(151, 147, 147);
+  font-size:x-small;
+  width: 99vw;
+  height: 7vh;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rodapeText{
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  text-align: left;
+  gap: 1vw;
+  margin-left: 5vw;
+}
+
+.rodapeText a{
+  color: rgb(151, 147, 147);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.redes{
+ margin-left: 13vw;
+ cursor: pointer;
 }
