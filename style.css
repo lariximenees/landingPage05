@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+}
+
+.topo{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align:center;
+  flex-direction: column;
+}
+
+.sign{
+  position: absolute;
+  display: flex;
+  right: 8%;
+  top: 3%;
+}
+
+.sign p{
+  color: white;
+  margin-right: 2vh;
+  font-weight: bold;
+}
+
+.sign button{
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  height: 5vh;
+  width:12vh;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+.imagem img{
+  width: 100vw;
+  height: 60vh;
+}
+
+.logo{
+  position: absolute;
+  margin-top: 0vh;
+
+ 
+}
+
+.logo h1{
+  color: white;
+  font-size: 250%;
+  margin-bottom: 3vh;
+  
+}
+
+.inputSearch{
+  height: 4.8vh;
+  width:30vh;
+  
+}
+
+.buttonSearch{
+  color:white;
+  background-color:#eb1700;
+  cursor: pointer;
+  height: 4vh;
+  width:4vh;
+  font-size: small;
+  border: none;
+  border-radius: 30px;
+  margin-left: 8vw;
+}
+
+.search{
+  position: absolute;
+  display: flex; 
+  align-items: center;  
+  justify-content: center; 
+  margin-top: 23vh;
+}
+
+.location{
+  position: absolute;
+  margin-right: 20vw;
+}
+
+.inputSearch{
+  height: 5vh;
+  border-radius: 20px;
+  border: none;
+  width: 20vw;
+  padding-left: 35px;
+}
+
+.buttonSearch{
+  margin-left: -35px;
+}
+.savedAddress{
+  position: absolute;
+  display: flex;
+  margin-top: 35vh;
+}
+
+.savedAddress a{
+
+  color: white;
+  font-weight: bold;
+  font-size: small;
+}
+
+.icons{
+  display: flex;
+  justify-content:center;
+  align-items: center; 
+  text-align:center;
+  gap: 25vh;
+}
+
+.dasher{
+  width:11vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 8vh;
+  font-weight: bold;
+}
+
+
+.dasher h1{
+  font-size:20px;
+  font-weight: bold;
+}
+.text{
+  font-size: small;
+  font-weight: bolder;
+}
+
+.dasher img{
+  width: 9vw;
+  height: 15vh;
+}
+.lastText{
+  color: #eb1700;
+  font-weight: bold;
+  font-size: small;
+  margin-top: 1vh;
+}
+
+.app{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin-top: 8vh;
+  font-weight: bold;
+}
+
+.appTitle{
+  width: 21vw;
+  margin-left: 20vw;
+  margin-right: 6vw;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  text-align:left;
+
+}
+
+.appTitle h1{
+
+}
+
+.appTitle p{
+  font-size: small;
+}
+
+.appTitle button{
+  color: white;
+  background-color: #eb1700;
+  width: 5vw;
+  height: 4vh;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  border: none;
+}
